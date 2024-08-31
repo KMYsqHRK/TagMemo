@@ -328,6 +328,12 @@ class MemoApp:
         if self.current_memo_id:
             if messagebox.askyesno("確認", "このメモを削除しますか？"):
                 self.memos = [m for m in self.memos if m["id"] != self.current_memo_id]
+                # debug: 消す対象より大きなインデックスを持つメモのインデックス値を1下げる
+                for m in self.memos:
+                    if int(m["id"]) > int(self.current_memo_id):
+                        id_int = int(m["id"])
+                        id_int -= 1
+                        m["id"] = str(id_int)
                 self.save_data()
                 self.update_memo_list()
                 self.new_memo()
