@@ -44,10 +44,6 @@ python tag_memo9.py
 - Pillow
 - pyclipper
 
-## 貢献
-
-バグ報告や機能リクエストは Issues で受け付けています。プルリクエストも歓迎です！
-
 ## ライセンス
 
 このプロジェクトは [MIT ライセンス](LICENSE) の下で公開されています。
