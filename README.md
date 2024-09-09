@@ -47,9 +47,11 @@ python tag_memo9.py
 ## Exe化
 
 -pyinstallerでのexe化に対応しています。
-'''
-pyinstaller tag_memp.py --noconsole --icon="resources/tag_memo.ico"
-'''
+```
+pyinstaller tag_memp.py --noconsole --icon=resources/tag_memo.ico
+```
+これを実行すると、アイコンが設定されたexeファイルが生成されます。
+適当な場所にファイルを設置して、ショートカットなどを作成してください。
 
 ## ライセンス
 
