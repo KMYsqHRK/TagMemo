@@ -44,6 +44,13 @@ python tag_memo9.py
 - Pillow
 - pyclipper
 
+## Exe化
+
+-pyinstallerでのexe化に対応しています。
+'''
+pyinstaller tag_memp.py --noconsole --icon="resources/tag_memo.ico"
+'''
+
 ## ライセンス
 
 このプロジェクトは [MIT ライセンス](LICENSE) の下で公開されています。
